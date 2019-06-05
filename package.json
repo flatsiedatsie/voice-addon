@@ -59,14 +59,16 @@
         "keyword": {
           "type": "string",
           "enum": [
-            "hey snips"
+            "Custom",
+            "Hey Snips"
           ],
-          "default": "USB",
-          "description": "Keyword used to trigger the command."
+          "default": "Hey Snips",
+          "description": "Keyword used to initiate a voice command."
         },
         "speaker": {
           "type": "string",
           "enum": [
+            "Jack",
             "USB"
           ],
           "default": "USB"
