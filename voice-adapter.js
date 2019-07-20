@@ -447,7 +447,7 @@ function loadVoiceAdapter(addonManager, manifest, _errorCallback) {
       {
         name: 'wakeword',
         metadata: {
-          description: 'A wakeword was deteced',
+          description: 'A wakeword was detected',
           type: 'string',
         },
       },
